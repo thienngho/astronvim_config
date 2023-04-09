@@ -8,7 +8,7 @@ return {
     local actions = require "telescope.actions"
     return require("astronvim.utils").extend_tbl(opts, {
       defaults = {
-        winblend = vim.g.winblend + 10,
+        -- winblend = vim.g.winblend + 10,
         selection_caret = "  ",
         layout_config = {
           width = 0.90,
@@ -47,7 +47,7 @@ return {
     })
   end,
   config = function(...)
-    require "plugins.configs.telescope"(...)
+    require "plugins.configs.telescope" (...)
     local telescope = require "telescope"
     telescope.load_extension "undo"
     telescope.load_extension "file_browser"
