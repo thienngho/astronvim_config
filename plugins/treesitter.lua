@@ -7,7 +7,6 @@ return {
       "vim",
       "bash",
       "terraform",
-      "help",
       "python",
       "yaml",
       -- "gdresource"
