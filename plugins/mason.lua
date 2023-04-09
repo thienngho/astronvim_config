@@ -9,6 +9,7 @@ return {
         "jsonls",
         "pyright",
         "yamlls",
+        "bashls",
       },
     },
   },
