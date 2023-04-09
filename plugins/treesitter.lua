@@ -9,6 +9,7 @@ return {
       "terraform",
       "python",
       "yaml",
+      "go",
       -- "gdresource"
     },
   },

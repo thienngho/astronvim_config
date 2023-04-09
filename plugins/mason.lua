@@ -10,6 +10,7 @@ return {
         "pyright",
         "yamlls",
         "bashls",
+        "gopls",
       },
     },
   },
